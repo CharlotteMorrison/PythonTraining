@@ -1,6 +1,6 @@
 pos = ["noun", "noun", "noun", "verb", "verb", "verb", "noun", "noun", "verb", "adjective", "adjective", "noun"]
 words = []
-count = 0;
+count = 0
 print("Mad Lib with Lists")
 print("")
 
@@ -9,6 +9,7 @@ for i in pos:
     temp = raw_input("Enter a(n) " + part)
     words.insert(len(words), temp)
     count+=1
+
 print(" ")
 print("________________________________________________________________________________________")
 print(" ")
