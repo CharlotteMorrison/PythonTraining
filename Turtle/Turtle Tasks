@@ -1,0 +1,18 @@
+Task 1: create a square with the turtle
+
+Task 2: use goto(x,y) to create multiple squares
+        notice how the code is repetitive in the previous task,
+        how could it be more efficient?
+
+Task 3: change the color of the squares using pencolor('red')
+        more advanced: rgb values, pencolor(0.0, 1.0, 0.0)
+        color inputs are float numbers between 0.0 and 1.0
+
+Task 4: create a square and a circle use penup() and pendown() to move your turtle without drawing a line.
+        fill each shape with a different color.
+        use: fillcolor(), sets the color for the fill
+             begin_fill(), starts recording the moves that will be the outline of the filled-in shape
+             end_fill() function will stop recording the moves for the filled-in shape and draw the shape
+
+Task 5: use the turtle program to draw an image
+        suggetions: olympic rings, spirograph, cartoon
